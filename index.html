@@ -10,8 +10,9 @@
     </head>
     
     <body>
+        <div class="main">
         <h1></h1>
-        <div>
+        <div class="form">
             <form id="user_info">
                 <label for="fname">Etunimi:</label><br>
                 <input type="text" id="fname" name="fname"><br>
@@ -23,26 +24,37 @@
                 <input type="text" id="lname" name="lname"><br>
             </form>
         </div>
-        <div>
+        <div class="form">
             <form id="needs_info">
                 <h3>Tarvitsemasi palvelut</h3>
-                <div>
-                    <input name="a1" id="a1" type="radio">
-                    <label for="a1">Asia 1</label><br>
-                    <input name="a2" id="a2" type="radio">
-                    <label for="a2">Asia 2</label><br>
-                    <input name="a3" id="a3" type="radio">
-                    <label for="a3">Asia 3</label><br>
-                </div>
-                <div>
-                    <input name="a4" id="a4" type="radio">
-                    <label for="a4">Asia 4</label><br>
-                    <input name="a5" id="a5" type="radio">
-                    <label for="a5">Asia 5</label><br>
-                    <input name="a6" id="a6" type="radio">
-                    <label for="a6">Asia 6</label><br>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <input name="a1" id="a1" type="radio">
+                        <label for="a1">Asia 1</label><br>
+                    </div>
+                    <div class="grid-item">
+                        <input name="a2" id="a2" type="radio">
+                        <label for="a2">Asia 2</label><br>
+                    </div>
+                    <div class="grid-item">
+                        <input name="a3" id="a3" type="radio">
+                        <label for="a3">Asia 3</label><br>
+                    </div>
+                    <div class="grid-item">
+                        <input name="a4" id="a4" type="radio">
+                        <label for="a4">Asia 4</label><br>
+                    </div>
+                    <div class="grid-item">
+                        <input name="a5" id="a5" type="radio">
+                        <label for="a5">Asia 5</label><br>
+                    </div>
+                    <div class="grid-item">
+                        <input name="a6" id="a6" type="radio">
+                        <label for="a6">Asia 6</label><br>
+                    </div>
                 </div>
             </form>
+        </div>
         </div>
     </body>
 </html>

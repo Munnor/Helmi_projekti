@@ -1,0 +1,19 @@
+.main {
+    margin: auto;
+    width: 50%;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 15% 15%;
+}
+.grid-item {
+max-height: fit-content;
+}
+
+.form {
+border-style: solid;
+border-color: black;
+padding: 15px;
+margin-bottom: 15px;
+}
