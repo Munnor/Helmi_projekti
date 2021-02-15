@@ -4,11 +4,18 @@
 }
 
 .grid-container {
-display: grid;
-grid-template-columns: 15% 15%;
+display: flex;
 }
 .grid-item {
 max-height: fit-content;
+}
+
+.left {
+    flex: 0 0 65%;
+}
+
+.right {
+    flex: 1;
 }
 
 .form {
